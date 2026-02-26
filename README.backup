@@ -1,0 +1,69 @@
+# Animated Portfolio Website
+
+A modern, animated portfolio website built with React, Framer Motion, and Tailwind CSS. Showcasing a beautiful dark-themed design with smooth animations and interactive components.
+
+## Features
+
+- **Animated Hero Section** – Smooth entrance animations with scrolling indicator
+- **Responsive Design** – Fully responsive layout that works on all devices
+- **Dark Theme** – Elegant dark gradient background with purple accents
+- **Smooth Animations** – Framer Motion powered animations throughout
+- **Component Library** – Built with Radix UI and shadcn/ui components
+- **Modern Styling** – Tailwind CSS for rapid, maintainable styling
+- **Interactive Elements** – Hover effects and transitions on interactive components
+
+## Sections
+
+- **Hero** – Eye-catching introduction with profile image and call-to-action buttons
+- **About** – Personal background and professional information
+- **Projects** – Showcase of work and achievements
+- **Skills** – Technical expertise and proficiencies
+- **Contact** – Contact form and social links
+
+## Tech Stack
+
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Animations**: Framer Motion
+- **Component Library**: Radix UI, shadcn/ui
+- **Styling**: Tailwind CSS
+- **UI Icons**: Lucide React
+- **Type Safety**: TypeScript
+- **Language**: JavaScript/TypeScript
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/           # Radix UI and shadcn/ui components
+│   ├── image/        # Custom components
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   └── Contact.tsx
+├── guidelines/       # Design guidelines
+├── styles/          # Global styles
+├── App.tsx          # Main application component
+├── main.tsx         # Entry point
+└── index.css        # Global CSS
+
+```
+
+## License
+
+© 2025 Franz. All rights reserved.
+
+This project and all its contents are proprietary and confidential. Unauthorized reproduction, distribution, or use of this project, in whole or in part, without explicit written permission is prohibited.
+
+Exceptions:
+- Open source components (Radix UI, shadcn/ui) remain under their respective licenses
+- Third-party libraries retain their original licenses (see package.json)
